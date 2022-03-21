@@ -1,0 +1,1 @@
+Projeto utilizando HTML, CSS, e Javascript. Com o intuito de estudo e prática.
