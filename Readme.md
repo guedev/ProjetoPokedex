@@ -1,1 +1,2 @@
-Projeto utilizando HTML, CSS, e Javascript. Com o intuito de estudo e prática.
+Projeto utilizando HTML, CSS, e Javascript (Sem utilização de API). Com o intuito de estudo e prática.
+Todos os dados de status dos pokemon são ficticios.
