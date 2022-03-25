@@ -6,4 +6,4 @@ Todos os dados de status dos pokemon são ficticios.</h3>
 <img src="src/screenshots/screenshot1.PNG" alt="pokedex1">
 <img src="src/screenshots/screenshot2.PNG" alt="pokedex2">
 <span>Versão mobile</span>
-<img src="src/screenshots/screenshot3.PNG" alt="pokedex3">
+<img src="src/screenshots/screenshot0.PNG" alt="pokedex3">
