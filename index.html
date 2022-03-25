@@ -4,22 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pokédex - Seu guia sobre pokemon.</title>
-    <link rel="stylesheet" href="/style/global.css">
-    <link rel="stylesheet" href="/style/reset.css">
-    <link rel="stylesheet" href="/style/card.css">
-    <link rel="stylesheet" href="/style/menu.css">
-    <link rel="stylesheet" href="/style/responsive.css">
+    <link rel="stylesheet" href="src/style/global.css" />
+    <link rel="stylesheet" href="src/style/reset.css" />
+    <link rel="stylesheet" href="src/style/card.css" />
+    <link rel="stylesheet" href="src/style/menu.css" />
+    <link rel="stylesheet" href="src/style/responsive.css" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <main>
       <div class="pokedex">
         <div class="cards-pokemon">
-          <div class="card-pokemon
-          aberto type-eletric">
+          <div class="card-pokemon aberto type-eletric" id="card-pikachu">
             <div class="card-top">
               <div class="details-pokemon">
                 <h2 class="name">Pikachu</h2>
@@ -53,7 +55,7 @@
               </div>
             </div>
           </div>
-          <div class="card-pokemon type-grass">
+          <div class="card-pokemon type-grass" id="card-bulbassauro">
             <div class="card-top">
               <div class="details-pokemon">
                 <h2 class="name">Bulbasauro</h2>
@@ -87,7 +89,7 @@
               </div>
             </div>
           </div>
-          <div class="card-pokemon type-fire">
+          <div class="card-pokemon type-fire" id="card-charmander">
             <div class="card-top">
               <div class="details-pokemon">
                 <h2 class="name">Charmander</h2>
@@ -120,7 +122,7 @@
               </div>
             </div>
           </div>
-          <div class="card-pokemon type-ghost">
+          <div class="card-pokemon type-ghost" id="card-gengar">
             <div class="card-top">
               <div class="details-pokemon">
                 <h2 class="name">Gengar</h2>
@@ -153,7 +155,7 @@
               </div>
             </div>
           </div>
-          <div class="card-pokemon type-dragon-water">
+          <div class="card-pokemon type-dragon-water" id="card-gyarados">
             <div class="card-top">
               <div class="details-pokemon">
                 <h2 class="name">Gyarados</h2>
@@ -186,7 +188,7 @@
               </div>
             </div>
           </div>
-          <div class="card-pokemon type-dragon">
+          <div class="card-pokemon type-dragon" id="card-dragonite">
             <div class="card-top">
               <div class="details-pokemon">
                 <h2 class="name">Dragonite</h2>
@@ -220,35 +222,49 @@
             </div>
           </div>
         </div>
-       <nav class="menu">
-        <ul>
-          <li class="pokemon active">
-            <img src="./src/images/cabeca-pikachu.png" alt="cabeça-pikachu">
-            <span>Pikachu</span>
-          </li>
-          <li class="pokemon">
-            <img src="./src/images/cabeca-bulbasaur.png" alt="cabeça-bulbassauro">
-            <span>Bulbassauro</span>
-          </li>
-          <li class="pokemon">
-            <img src="./src/images/cabeca-charmander.png" alt="cabeça-charmander">
-            <span>Charmander</span>
-          </li>
-          <li class="pokemon">
-            <img src="./src/images/cabeca-gengar.png" alt="cabeça-gengar">
-            <span>Gengar</span>
-          </li>
-          <li class="pokemon">
-            <img src="./src/images/cabeca-gyarados.png" alt="cabeça-gyarados">
-            <span>Gyarados</span>
-          </li>
-          <li class="pokemon">
-            <img src="./src/images/cabeca-dragonite.png" alt="cabeça-dragonite">
-            <span>Dragonite</span>
-          </li>
-        </ul>
-       </nav> 
+        <nav class="menu">
+          <ul>
+            <li class="pokemon active" id="pikachu">
+              <img src="./src/images/cabeca-pikachu.png" alt="cabeça-pikachu" />
+              <span>Pikachu</span>
+            </li>
+            <li class="pokemon" id="bulbassauro">
+              <img
+                src="./src/images/cabeca-bulbasaur.png"
+                alt="cabeça-bulbassauro"
+              />
+              <span>Bulbassauro</span>
+            </li>
+            <li class="pokemon" id="charmander">
+              <img
+                src="./src/images/cabeca-charmander.png"
+                alt="cabeça-charmander"
+              />
+              <span>Charmander</span>
+            </li>
+            <li class="pokemon" id="gengar">
+              <img src="./src/images/cabeca-gengar.png" alt="cabeça-gengar" />
+              <span>Gengar</span>
+            </li>
+            <li class="pokemon" id="gyarados">
+              <img
+                src="./src/images/cabeca-gyarados.png"
+                alt="cabeça-gyarados"
+              />
+              <span>Gyarados</span>
+            </li>
+            <li class="pokemon" id="dragonite">
+              <img
+                src="./src/images/cabeca-dragonite.png"
+                alt="cabeça-dragonite"
+              />
+              <span>Dragonite</span>
+            </li>
+          </ul>
+        </nav>
       </div>
     </main>
+
+    <script src="./src/js/index.js"></script>
   </body>
 </html>
