@@ -3,4 +3,4 @@ Todos os dados de status dos pokemon são ficticios.</h3>
 
 <span>Imagens do Projeto</span>
 
-<img src="./src/screenshots/screenshot1" alt="pokedex1">
+<img src="/src/screenshots/screenshot1" alt="pokedex1">
